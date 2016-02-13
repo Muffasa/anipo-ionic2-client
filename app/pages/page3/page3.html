@@ -1,10 +1,17 @@
 
 <ion-navbar *navbar>
   <ion-title>
-    Tab 3
+    BlueTooth serial
   </ion-title>
 </ion-navbar>
 
 <ion-content class="page3">
-
+ <p>docs of plugin: https://github.com/don/BluetoothSerial </p>
+ <p>device uuid: {{deviceUuid}}</p>
+ <ion-list>
+     <button ion-item (click)="checkBT()">checkBT</button>
+     <button ion-item (click)="switchToBluetoothSettings()">switchToBluetoothSettings</button>
+     <button ion-item (click)="list()">list</button>
+     <button ion-item (click)="discoverUnpaired()">discoverUnpaired</button>
+ </ion-list>    
 </ion-content>
