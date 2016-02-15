@@ -1,0 +1,6 @@
+<ion-content padding class="choose-organization">
+  <h2>Choose organization:</h2>
+    <ion-item *ngFor="#org of organizations" (click)="orgChoosen(org)">
+      {{org.name}}
+    </ion-item>
+</ion-content>

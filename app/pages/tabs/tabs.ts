@@ -3,6 +3,7 @@ import {Page1} from '../page1/page1';
 import {Page2} from '../page2/page2';
 import {Page3} from '../page3/page3';
 import {AnipoPage} from '../anipo/anipo';
+import {ChooseOrganization} from '../../components/choose-organization/choose-organization';
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
 import {Type} from 'angular2/core';
 
@@ -17,6 +18,7 @@ export class TabsPage {
   tab2Root: Type = Page2;
   tab3Root: Type = Page3;
   tab4Root: Type = AnipoPage;
+  tab5Root: Type = ChooseOrganization;
   
   constructor() {
 
