@@ -3,7 +3,7 @@ import {Organizations} from '../../collections/organizations';
 import {MeteorComponent} from 'angular2-meteor-client';
 
 @Page({
-  templateUrl: 'build/components/choose-organization/choose-organization.html',
+  templateUrl: 'build/pages/choose-organization/choose-organization.html',
 })
 export class ChooseOrganization extends MeteorComponent {
     organizations: Mongo.Cursor<Object>
